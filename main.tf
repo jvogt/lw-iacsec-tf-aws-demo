@@ -40,10 +40,6 @@ resource "aws_s3_bucket" "b" {
       }
     }
   }
-  logging {
-     target_bucket = "log-bucket"
-     target_prefix = "log/"
-  }
   versioning {
     enabled = true
   }
