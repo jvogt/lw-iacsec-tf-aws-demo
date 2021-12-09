@@ -1,0 +1,20 @@
+daily_assessments_enabled: true
+pr_status_thresholds:
+  critical: 0
+  high: 0
+  medium: 0
+  low: 0
+pr_status_force_pass_enabled: false
+pr_status_enabled: true
+pr_comments_enabled: true
+pr_comments_on_passed_check_enabled: false
+workspaces:
+- name: default
+  terraform_dir: .
+terraform_enabled: false
+cost_analysis_enabled: false
+static_analysis_enabled: true
+score_analysis_enabled: false
+suppress:
+  - "ckv-aws-8"
+  - "ckv-aws-79"
