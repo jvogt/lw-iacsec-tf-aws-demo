@@ -41,6 +41,6 @@ resource "aws_s3_bucket" "b" {
     }
   }
   versioning {
-    enabled = false
+    enabled = true
   }
 }
