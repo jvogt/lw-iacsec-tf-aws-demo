@@ -18,3 +18,5 @@ score_analysis_enabled: false
 suppress:
   - "ckv-aws-8"
   - "ckv-aws-79"
+  - "ckv-aws-144"
+  - "ckv2-aws-6"
