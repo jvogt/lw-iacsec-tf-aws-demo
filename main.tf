@@ -43,4 +43,8 @@ resource "aws_s3_bucket" "b" {
   versioning {
     enabled = true
   }
+  logging {
+    target_bucket = "<Target Bucket ID to which logs needs to be sent>"
+    target_prefix = "log/"
+  }
 }
