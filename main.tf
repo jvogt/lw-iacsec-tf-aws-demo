@@ -18,6 +18,7 @@ resource "aws_instance" "app_server" {
   ami           = "ami-830c94e3"
   instance_type = "t2.micro"
   monitoring    = true
+  http_tokens   = "required"
   ebs_optimized = true
   tags = {
     Name = "ExampleAppServerInstance"
